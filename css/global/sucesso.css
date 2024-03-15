@@ -1,0 +1,50 @@
+.sucesso {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: #fff;
+  padding: 0 100px;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.sucesso video {
+  max-width: 450px;
+  max-height: 450px;
+}
+
+.sucesso h1 {
+  text-align: center;
+
+  font-size: 40px;
+  line-height: 40px;
+
+  height: 0;
+  overflow: hidden;
+
+  animation: animationText 1s forwards;
+  animation-delay: 2s;
+}
+
+@media (max-width: 740px) {
+  .sucesso {
+    padding: 0 15px;
+  }
+  .sucesso video {
+    max-width: 225px;
+    max-height: 225px;
+  }
+  .sucesso h1 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 364px) {
+  .sucesso h1 {
+    overflow: hidden;
+    font-size: 24px;
+  }
+  .sucesso {
+    padding: 0 2px;
+  }
+}

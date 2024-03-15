@@ -1,0 +1,15 @@
+/* Global */
+@import "global/global.css";
+@import "global/header.css";
+@import "global/animations.css";
+@import "global/form.css";
+@import "global/sucesso.css";
+@import "global/footer.css";
+
+/* Home */
+@import "home/contato.css";
+@import "home/cursos.css";
+@import "home/sobre.css";
+
+/* Nosso time */
+@import "nosso-time/main.css";

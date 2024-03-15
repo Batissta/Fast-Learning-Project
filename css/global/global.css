@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap");
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* TIPOGRAFIA */
+.font-1-xx {
+  font-size: 52px;
+  font-family: "Antic Didone", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-2-x {
+  font-size: 36px;
+  font-family: "Antic Didone", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* CORES */
+
+.cor-1 {
+  color: white;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Antic Didone", serif;
+  transition: all 0.4s;
+}
+
+a:hover {
+  transform: scale(1.1);
+}
+
+ul {
+  padding: 0;
+}
+
+.titulo-area {
+  margin: 0 0 100px;
+  padding: 50px 80px;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .titulo-area {
+    padding: 30px 40px;
+  }
+  .titulo-area h1,
+  .titulo-area h2 {
+    text-align: center;
+  }
+  .font-1-xx {
+    font-size: 42px;
+  }
+  .font-2-x {
+    font-size: 26px;
+  }
+}

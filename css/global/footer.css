@@ -1,0 +1,94 @@
+footer.container {
+  background-color: black;
+  color: white;
+  padding: 80px 30px;
+}
+
+.footer-area {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr;
+
+  max-width: 100%;
+  padding: 0 40px;
+}
+
+.footer-area img {
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.tabela-footer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+
+  max-width: 800px;
+  background: linear-gradient(transparent, rgb(75, 75, 75));
+  border-radius: 1rem;
+
+  padding: 20px 20px 40px 20px;
+  row-gap: 1rem;
+  column-gap: 1.5rem;
+}
+
+.tabela-linha {
+  display: grid;
+  align-items: center;
+
+  grid-template-columns: 1fr;
+  row-gap: 0.5rem;
+  padding: 10px 5px;
+  border-bottom: 1px rgb(67, 117, 255) solid;
+}
+
+.tabela-linha th {
+  font-family: "Antic Didone";
+  font-size: 20px;
+  text-align: start;
+
+  max-width: fit-content;
+}
+
+.tabela-linha td {
+  text-align: start;
+  max-width: fit-content;
+  font-size: 18px;
+}
+
+.tabela-linha td img {
+  opacity: 0;
+  display: none;
+}
+
+.tabela-linha td img {
+  width: 12px;
+  height: 12px;
+  opacity: 0;
+}
+
+.tabela-coluna-integrantes {
+  display: flex;
+  gap: 1rem;
+}
+
+@media (max-width: 600px) {
+  footer.container {
+    padding: 80px 10px;
+  }
+
+  .footer-area {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-area img {
+    margin: 0 auto;
+    max-width: 240px;
+  }
+}
+
+@media (max-width: 425px) {
+  .footer-area {
+    padding: 0 10px;
+  }
+}

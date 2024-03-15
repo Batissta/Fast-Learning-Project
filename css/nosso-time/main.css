@@ -1,0 +1,154 @@
+/* MUDAR A FONTE DO SITE -> PRA A FONTE DO BRCR*/
+
+.nosso-time {
+  margin: 0 0 100px;
+  padding: 50px 80px;
+  background: linear-gradient(to bottom right, black 12%, rgb(0, 0, 148) 98%);
+  align-items: center;
+}
+
+.nosso-time h1 {
+  color: white;
+}
+
+.area-integrantes {
+  display: grid;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.integrante {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 0 auto;
+  gap: 2.3rem;
+  padding: 20px;
+  border-radius: 1rem;
+  margin-bottom: 50px;
+}
+.integrante-foto-area {
+  display: grid;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.integrante-foto {
+  justify-self: center;
+  align-self: center;
+  border-radius: 1rem;
+}
+
+.integrante-conteudo {
+  position: relative;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 1.5rem;
+}
+
+.detalhe-integrante-conteudo {
+  position: absolute;
+  left: -20px;
+  top: 20px;
+  bottom: 20px;
+  display: block;
+  width: 2px;
+  background: rgb(5, 14, 65);
+}
+
+.integrante-nome-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.integrante-nome-area-contato {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  max-width: 80px;
+}
+
+.integrante h2,
+.integrante h3,
+.integrante p {
+  color: black;
+}
+
+.tecnologias {
+  display: grid;
+  list-style: none;
+  gap: 1rem;
+}
+.tecnologias li {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.tecnologias li p {
+  font-weight: bold;
+}
+
+.tecnologias li img {
+  max-height: 32px;
+}
+
+@media (max-width: 768px) {
+  .integrante {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    gap: 2.3rem;
+    padding: 20px;
+    border-radius: 1rem;
+    margin-bottom: 50px;
+  }
+  .detalhe-integrante-conteudo {
+    position: absolute;
+    top: -15px;
+    left: 30px;
+    right: 30px;
+    display: block;
+    height: 2px;
+    width: auto;
+    background: rgb(5, 14, 65);
+  }
+}
+
+@media (max-width: 380px) {
+  .titulo-area {
+    padding: 30px 40px;
+  }
+
+  .integrante-nome-area {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+
+  .integrante-nome-area h2,
+  .integrante-conteudo p {
+    text-align: center;
+  }
+
+  .tecnologias {
+    max-width: 40%;
+    margin: 0 auto;
+  }
+  .tecnologias li {
+    flex-direction: column;
+  }
+
+  .tecnologias li::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 20%;
+    margin: 0 auto;
+    background-color: black;
+  }
+}
