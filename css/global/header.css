@@ -46,7 +46,7 @@
 .menu ul li a::after {
   content: "";
   display: block;
-  background-color: blue;
+  background-color: rgba(255, 217, 3, 0.822);
   height: 0.1rem;
   width: 0%;
   transition: 0.5s ease-in-out;
@@ -55,7 +55,7 @@
 .menu ul li a:hover::after {
   content: "";
   display: block;
-  background-color: blue;
+  background-color: rgba(255, 217, 3, 0.822);
   height: 0.1rem;
   width: 100%;
 }

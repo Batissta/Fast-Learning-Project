@@ -68,6 +68,9 @@
   z-index: 2;
   padding: 40px 0;
 }
+#curso-duplo {
+  display: flex;
+}
 
 .curso-img-area img {
   margin: 0 auto;
@@ -89,6 +92,10 @@
   color: white;
   display: flex;
   flex-direction: row;
+  overflow: auto;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  scrollbar-width: none;
 }
 
 .curso-conteudo-area h3::after {

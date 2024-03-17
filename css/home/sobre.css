@@ -114,7 +114,9 @@ audio:hover {
   }
 
   .audio-area img {
-    transform: rotate(90deg);
+    animation: bouncingX 0.4s infinite alternate-reverse;
+    rotate: 90deg;
+
     width: 16px;
     height: 16px;
   }
