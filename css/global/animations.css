@@ -51,6 +51,18 @@
   }
 }
 
+/* Nosso time */
+@keyframes lineAppearing {
+  0% {
+    bottom: auto;
+    height: 1%;
+  }
+  100% {
+    bottom: 20px;
+    height: 100%;
+  }
+}
+
 /* CLASSES */
 .fadeToLeft {
   animation: 0.7s fadeInLeft ease-in-out;
@@ -60,21 +72,26 @@
   animation: 0.7s fadeInTop ease-in-out;
   overflow: hidden;
 }
-
 .slideToTop {
   animation: 0.6s fadeInTop ease-in-out;
   animation-timeline: view();
   animation-range: cover 0% cover 40%;
   overflow: hidden;
 }
-
 .slideToLeft {
   animation: 0.7s fadeInLeft ease-in-out;
   animation-timeline: view();
   animation-range: cover 0% cover 40%;
   overflow: hidden;
 }
-
 .bouncingX {
   animation: bouncingX 0.4s infinite alternate-reverse;
+}
+
+/* NOSSO TIME */
+
+.crazyLine {
+  animation: 1s lineAppearing ease-in-out;
+  animation-timeline: view();
+  animation-range: cover 0% cover 50%;
 }

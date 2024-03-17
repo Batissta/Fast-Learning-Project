@@ -26,6 +26,7 @@
   border-radius: 1rem;
   margin-bottom: 50px;
 }
+
 .integrante-foto-area {
   display: grid;
   max-width: 300px;
@@ -53,6 +54,7 @@
   display: block;
   width: 2px;
   background: rgb(5, 14, 65);
+  transition: 0.3s;
 }
 
 .integrante-nome-area {
@@ -115,6 +117,12 @@
     height: 2px;
     width: auto;
     background: rgb(5, 14, 65);
+    animation: 0.2s fadeInLeft ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 40%;
+  }
+  .integrante-nome-area h2 {
+    animation: none;
   }
 }
 
