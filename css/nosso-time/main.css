@@ -117,9 +117,9 @@
     height: 2px;
     width: auto;
     background: rgb(5, 14, 65);
-    animation: 0.2s fadeInLeft ease-in-out;
+    animation: 0.4s fadeInLeft ease-in-out;
     animation-timeline: view();
-    animation-range: cover 0% cover 40%;
+    animation-range: cover 0% cover 50%;
   }
   .integrante-nome-area h2 {
     animation: none;
