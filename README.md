@@ -7,7 +7,7 @@ Nesse projeto, buscamos criar uma plataforma de cursos na área de programação
 Dentro da plataforma, existem vários cursos gratuitos e um botão redirecionando para começar os estudos, sem nenhuma enrolação. Já em relação aos cursos pagos, eles serão implementados futuramente na plataforma, cursos autorais e disponibilizados através do mercado de afiliados.
 
 ## Confira: 
-<a href="batissta.github.io/Fast-Learning-Project/">Nossa plataforma</a>
+<a href="https://batissta.github.io/Fast-Learning-Project/">Nossa plataforma</a>
 
 
 
