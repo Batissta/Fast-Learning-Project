@@ -84,7 +84,7 @@
   animation-range: cover 0% cover 40%;
   overflow: hidden;
 }
-.bouncingX {
+#bouncingX {
   animation: bouncingX 0.4s infinite alternate-reverse;
 }
 
